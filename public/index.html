@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Picture Ipsum</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    
+    <style>
+      body{
+        background:black;
+        margin:10%;
+        color:white;
+        font-family:monospace;
+      }
+      div.ex{
+        padding:15px;
+        border-radius:4px;
+        background:#2f2f2f;
+        margin-bottom:10px;
+      }
+      img{
+        margin-left:17.5%;
+        margin-right:17.5%;
+      }
+    </style>
+    
+    <h1>
+      Picture Ipsum
+    </h1>
+    <p>
+      To use this service, type the desired image dimensions in the URL.
+    </p>
+    <p>
+      Example:
+      <div class="ex">
+        <span id="url"></span>600/300
+      </div>
+      This will create a 600x300 pixel image, as displayed below
+    </p>
+    <br>
+  
+    <img src="https://picture-ipsum.glitch.me/600/300">
+  <br>
+
+    <script>
+      document.getElementById("url").innerText=window.location
+    </script>
+  
+  </body>
+</html>
