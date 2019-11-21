@@ -1,0 +1,25 @@
+{
+  "name": "picture-ipsum",
+  "version": "0.0.1",
+  "description": "A node app designed to generate placeholder images",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "canvas": "^2.6.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "express",
+    "ipsum",
+    "picture",
+    "canvas",
+    "generative"
+  ]
+}
